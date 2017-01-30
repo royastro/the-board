@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+<head>
+    <title>@model.title</title>
+    <link rel="stylesheet" href="/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="/lib/bootstrap/dist/css/bootstrap-theme.min.css" />
+    <link href="/css/site.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class=""navbar-header>
+                <button class="btn btn-success navbar-toggle" data-toggle="collapse" ></button>
+            </div>
+        </div>
+    </div>
+<div>@html.block("body")</div>
+<script src="/lib/underscore/underscore.js"></script>
+<script src="/lib/jquery/dist/jquery.min.js"></script>
+<script src="/lib/bootstrap/dist/js/bootstrap.min.js"></script>
+</body>
+</html>
